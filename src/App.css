@@ -10,3 +10,16 @@ button {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 580px;
+    margin-top: 80px;
+    margin-bottom: 54px;
+    padding: 0 20px;
+}
