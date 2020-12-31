@@ -19,7 +19,7 @@ const Users = () => {
 
     return (
         <div className="users-container">
-            <h1>Lista de usuários</h1>
+            <h1>Usuários</h1>
 
             {usersState.users.map((user) => (
                 <UserCard key={user.id} user={user} />
