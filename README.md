@@ -4,7 +4,7 @@ Para este teste foi desenvolvido um frontend com React.js, que consome informaç
 
 [Link da API de teste](https://jsonplaceholder.typicode.com/todos/1)
 
-**Veja para o projeto** - [Link do frontend](https://forleven-test.netlify.app/)
+**Veja o projeto** - [Link do frontend](https://forleven-test.netlify.app/)
 
 O projeto exibe as seguintes informações:
 
