@@ -1,0 +1,10 @@
+.todos-container {
+    margin-bottom: 32px;
+}
+
+.todos-container h1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

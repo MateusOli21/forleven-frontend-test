@@ -1,0 +1,15 @@
+.todo-container {
+    margin: 16px 0;
+    padding: 18px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.todo-container h2 {
+    font-size: 20px;
+}
+
+.todo-container p {
+    font-size: 16px;
+    margin-top: 8px;
+}

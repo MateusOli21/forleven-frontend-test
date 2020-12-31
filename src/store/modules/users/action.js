@@ -1,11 +1,9 @@
 import { GET_USERS, GET_USERS_ERROR } from '../../types';
-import axios from 'axios';
+import api from '../../../services/api';
 
 export const getUsers = () => async (dispatch) => {
     try {
-        const response = await axios.get(
-            'https://jsonplaceholder.typicode.com/users'
-        );
+        const response = await api.get('/users');
 
         dispatch({
             type: GET_USERS,
