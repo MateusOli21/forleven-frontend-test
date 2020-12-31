@@ -1,20 +1,17 @@
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
+import Routes from './routes';
 import store from './store';
-import Users from './components/Users';
-import Todo from './components/Todo';
 
 import './App.css';
 
 function App() {
     return (
         <Provider store={store}>
-            <div className="App">
-                <div className="content">
-                    <Todo />
-                    <Users />
-                </div>
-            </div>
+            <BrowserRouter>
+                <Routes />
+            </BrowserRouter>
         </Provider>
     );
 }

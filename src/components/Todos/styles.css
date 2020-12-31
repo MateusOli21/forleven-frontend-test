@@ -5,6 +5,12 @@
 .todos-container h1 {
     font-size: 24px;
     margin-bottom: 12px;
+}
+
+.todos-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom: 8px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
